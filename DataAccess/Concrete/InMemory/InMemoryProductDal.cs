@@ -17,7 +17,7 @@ namespace DataAccess.Concrete.InMemory
 
 		public void Delete(Product product)
 		{
-			throw new NotImplementedException();
+			Console.WriteLine("deneme");
 		}
 
 		public List<Product> GetAll()
